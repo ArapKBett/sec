@@ -18,3 +18,10 @@ PORT=5000
    node server.js
    ```
 2. The API will be available at `http://localhost:5000`.
+
+Add the `seed.js` file to your back-end folder.
+Run the seeder script:
+   ```bash
+   node seed.js
+   ```
+The script will populate your MongoDB database with sample data.
